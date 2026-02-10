@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <title>Q3 Seatwork 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .my-box {
+        width: 850px;
+        height: 700px;
+        padding: 20px;
+        margin: 10px auto;
+        background-color: aliceblue;
+        border: 10px rgb(112, 104, 91);
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0.95;
+    }
+
+    body {
+        background: #ffffff url(https://media.istockphoto.com/id/671016804/photo/young-gamer-playing-video-game-wearing-headphone.jpg?s=1024x1024&w=is&k=20&c=MYj_OZOEms6S8M-3lT9D5I-lRHu5y9jcn4BlO3cHUFo=) center center/cover no-repeat;
+    }
+</style>
+
+<body>
+    <div class="my-box">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <h3>Product Locator</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="locate.html">Locate</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <form>
+
+            <h4>Want a gaming laptop?</h4>
+            <h4>Enter your budget and let's find the one for you!</h4>
+            <h5>Store Location</h5><br>
+            <img src="https://cdn.shopify.com/s/files/1/0607/4771/0635/files/VillMan_whitered.png?height=628&pad_color=1e2d7d&v=1639545402&width=1200"
+                style="width: 250px; height: 100px;">
+            <h6>Cyberzone SM City Fairview Main Building</h6>
+
+            <h4>Brand & Discounts</h4>
+            <h6>Recommended Brands</h6>
+            <ol>
+                <li>Acer</li>
+                <li>Asus</li>
+                <li>Lenovo</li>
+            </ol>
+            <form>
+                <input type="number" id="listprice" placeholder="List price"><br>
+                <input type="number" id="sellingprice" placeholder="Selling Price"><br>
+                <input type="button" onclick="compute_area" value="Compute" onmouseover="discount_percentage()"><br>
+            </form>
+        </form>
+        <div id="result"></div>
+        <div id="output"></div>
+        <script src="main.js"></script>
+        <p>Stephanie Toralde</p>
+</body>
+
+</html>
+<div>
+
+    </html>
